@@ -1,0 +1,32 @@
+.header {
+    height: 60px;
+    background-color: #fff;
+}
+.bodys {
+    height: calc(100vh);
+    display: flex;
+}
+.lefts {
+    width: 200px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgb(0, 21, 41);
+}
+.rights {
+    width:calc(100vw - 200px);
+    height: 100%;
+    background-color:rgb(240, 242, 245);
+}
+.lefts div{
+    height: 40px;
+    box-sizing: border-box;
+    color:rgba(255,255,255,0.65);
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    padding-right:50px;
+}
+.lefts div:hover {
+    color:#fff;
+}

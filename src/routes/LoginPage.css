@@ -1,0 +1,28 @@
+.bodys {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/timg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rightLogin {
+    position: absolute;
+    right:15vw;
+    top:20vh;
+    width: 320px;
+    height: 280px;
+    background-color: white;   
+}
+.login_log{
+    width:280px;  
+    margin:20px;
+}
+.login_log input {
+    height:35px;
+    width:280px;
+    margin-bottom: 20px;
+}
+:global(.ant-tabs-tab){
+    width:160px;
+    text-align: center;
+}
